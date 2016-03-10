@@ -30,11 +30,11 @@
       ],
       "defaultValue": "0"
     },
-    "TWITTER_APP_ID": {
+    "twitterAppId": {
       "type": "string",
       "defaultValue": "TWITTER_APP_ID"
     },
-    "TWITTER_APP_SECRET": {
+    "twitterAppSecret": {
       "type": "string",
       "defaultValue": "TWITTER_APP_SECRET"
     },
@@ -85,10 +85,10 @@
             "appSettings": [
               {
                 "name": "TWITTER_APP_ID",
-                "value": "[parameters('TWITTER_APP_ID')]"
+                "value": "[parameters('twitterAppId')]"
               },              {
                 "name": "TWITTER_APP_SECRET",
-                "value": "[parameters('TWITTER_APP_SECRET')]"
+                "value": "[parameters('twitterAppSecret')]"
               }
             ]
           }
